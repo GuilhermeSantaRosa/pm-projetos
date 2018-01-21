@@ -1,0 +1,52 @@
+body {
+    background-color: #745cc1;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+img {
+    margin-top: 63px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+button {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 40px;
+    height: 50px;
+    text-transform;
+    border: none;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    color: #39393a;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+form {
+    padding: 60px 60px 5px 60px;
+}
+
+::-webkit-input-placeholder {
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 18px;
+    
+}
+

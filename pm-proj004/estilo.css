@@ -1,0 +1,37 @@
+ul {
+    padding: 0;
+    margin: 0;
+    
+}
+
+#completo, li {
+    list-style-type: none;
+    background-color: #27ae60;
+    margin-bottom: 3px;
+    padding: 60px 40px 60px 100px;
+    background-image: url(Completo.png);
+    background-repeat: no-repeat;
+    background-position: 27px center;
+}
+
+#completo:hover {
+    background-color: rgba(39, 174, 95, 0.8);
+}
+
+#pendente:hover {
+    background-color: rgba(74, 73, 74, 0.8);
+}
+
+#pendente, li {
+    background-image: url(Incompleto.png);
+    background-color: #4a4a4a;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    background-image: url(arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}

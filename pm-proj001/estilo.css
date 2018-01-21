@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    
+    
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+
+li {
+    
+    list-style: none;
+    background-color: #9b59b6;
+    padding: 12px;
+    color: white;
+    margin: 12px;
+}

@@ -1,0 +1,247 @@
+body {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+        
+}
+.container {
+   max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px; 
+    
+}
+
+
+header h1 {
+    margin: 0;
+    background-image: url(logow.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 76px;
+    margin-top: 10px;
+}
+
+span {
+    visibility: hidden;
+}
+
+header {
+    margin-bottom: -90px;
+}
+
+section#topo {
+    background-image: url(fundo.png);
+     background-size: cover;
+    height: 700px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration:none;
+    font-size: 20px;
+   
+}
+
+header nav ul {
+    padding-right: 60px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+header nav li:last-child {
+   border: 1px solid #fff;
+   border-radius: 3px;
+   padding: 10px 30px 10px 30px;
+    
+}
+
+section#topo .chamada {
+     text-align: center;
+    color: #fff;
+    margin-top: 200px;
+}
+
+section#topo h2 {
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 500;
+   
+}
+
+section#topo p {
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 300;
+  
+}
+
+ .botao {
+    background-color: #ff3d7f;
+    border-radius: 3px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 6px 0px 0px #a32751;
+     font-size: 36px;
+    font-weight: 300;
+     text-align: center;
+     
+}
+
+section#conheca {
+    padding: 70px;
+}
+
+section#conheca .textos {
+    padding: 70px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+section#conheca .textos h2 {
+    font-size: 36px
+}
+
+section#conheca .textos p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+section#conheca a {
+    font-size: 30px;
+  width: 60%;
+}
+
+section#depoimento {
+   background-color: #ebe8fb;
+   border-top: 3px solid #511099;
+}
+
+section#depoimento .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    padding-bottom: 50px;
+}
+
+section#depoimento img {
+    width: 150px;
+    height: 150px;
+}
+
+section#depoimento p {
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+    font-weight: 300;
+}
+
+section#convite .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+section#convite {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(fundo-convite.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+section#convite form {
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px;
+    width: 55%;
+    border-radius: 3px;
+    display: flex;
+    
+}
+
+section#convite input {
+     padding: 30px;
+    width: 75%;
+    background-color: transparent;
+    border: none;
+    outline-style: none;
+    color: purple;
+    
+}
+
+section#convite button {
+    background-image: url(botao-convite.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    width: 108px;
+    height: 43px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #2a0157;
+    color: #ffffff;
+    margin-top: 4px;
+    
+    
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+footer .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+    
+    header h1{
+       margin-left: 20px;
+    }
+    
+    section#topo {
+        padding: 20px;
+    }
+    
+    section#conheca .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section#conheca .container .textos {
+        padding: 10px;
+    }
+    
+    section#conheca a {
+        width: 100%;
+    }
+    
+    section#convite form {
+        display: block;
+        text-align: center;
+        width: 80%;
+    }
+    
+}

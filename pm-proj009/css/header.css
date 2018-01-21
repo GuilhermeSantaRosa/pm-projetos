@@ -1,0 +1,22 @@
+header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    background-image: url(../images/chis.png);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+span {
+    visibility: hidden;
+}
+
+header div {
+     display: flex;
+    align-items: center;
+}
