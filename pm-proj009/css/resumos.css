@@ -1,0 +1,110 @@
+.resumos {
+    background-color: #ebebeb;
+    padding: 0 10px 0 10px;
+    border-left: 1px solid #dddcde;
+    text-align: left;
+
+
+    
+}
+
+.resumos .products {
+    margin: 0;
+    padding: 0;
+}
+
+.resumos .products li {
+    list-style: none;
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dddcde;
+    padding-top: 15px;
+  
+    
+}
+
+
+.resumos .products li:last-child {
+    border: none;
+}
+
+.resumos .products .info {
+    width: 70%;
+    margin-left: 5px;
+    margin-right: 20px;
+     text-align: left;
+}
+
+.resumos .products h3 {
+    color: #78797a;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.resumos .products small {
+    color: #4a4a4a;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.resumos .products .info span {
+    color: #9c9c9c;
+    font-size: 10px;
+    font-weight: 700;
+    display: block;
+    margin-top: 3px;
+}
+
+.resumos .products span {
+    color: #777879;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.resumos table {
+    width: 100%;
+    border-top: 1px solid #d5d3d6;
+    margin-top: 19px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.resumos table th {
+    text-align: left;
+    color: #777879;
+    font-weight: 400;
+    font-size: 12px;
+ 
+    
+ 
+}
+
+.resumos table tfoot td {
+     font-weight: 700;
+}
+
+.resumos table tfoot * {
+    border-top: 1px solid #d6d4d7;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+}
+
+.resumos table tfoot th {
+    width: 550px;
+   
+    
+}
+
+
+.resumos table td {
+    text-align: right;
+    color: #777879;   
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -3,21 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Muli:200i,400,700" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="/css/principal.css">
+    <link rel="stylesheet" href="css/principal.css">
     <title>logo</title>
-    <style>
-
-
-.cartao {
-    background-color: blue;
-}
-
-.resumos {
-    background-color: orange;
-}
     
-</style>
 </head>
 <body>
    
@@ -34,9 +24,139 @@
    </header>
    <main>
        
-       <div class="cartao"></div>
+       <div class="cartao">
            
-       <div class="resumos"></div>
+ 
+       <div class="cards">
+           
+         <h2>Wallet</h2>
+           
+           <ul>
+               
+               <li>
+                   <a href="#">
+                     <img src="images/visa-card.png">
+                     <small>Ending in 1234</small>
+                   </a>
+                 
+               </li>
+                 <li>
+                   <a href="#">
+                     <img src="images/mastercard-card.png">
+                     <small>Ending in 2222</small>
+                   </a>
+                  
+               </li>
+                 <li>
+                   <a href="#">
+                     <img src="images/visa-icon.png">
+                     <small>Ending in 1111</small>
+                   </a>
+                   
+               </li>
+               
+               
+           </ul>
+           
+           
+         </div>
+          
+         <div class="new-Card">
+             
+             <form action="">
+                 
+               <fieldset> 
+                 
+                <legend><h3>New Card</h3></legend>
+                 
+                 <input id="inpt" type="text" placeholder="Name on card">
+                 <input id="inpt" type="text" placeholder="1111-1111-1111-1112">
+                 <input id="inpt" type="text" class="data" placeholder="MM/YY">
+                 <input id="inpt" type="text" class="cvc" placeholder="CVC">
+                 
+            
+                <span><input type="checkbox" id="button">Add card to wallet</span>
+                
+           
+                <button>Continue</button> <!-- botao -->
+               </fieldset> 
+             </form>
+             
+         </div>    
+           
+       </div>
+           
+       <div class="resumos">
+           
+           <ul class="products">
+               
+               <li>
+                   <img src="images/sapato.png" height="57px">
+                  <div class="info">
+                      <h3>The Chelsea Boot</h3>
+                      <small>Black</small>
+                      <span>Quantity: 1</span>
+                  </div>
+                  <span>$235</span>   
+               </li>
+               
+               <li>
+                   <img src="images/mochila.png" height="57px">
+                  <div class="info">
+                      <h3>The Twill Snap Backpack</h3>
+                      <small>Reverse Denim + Brown leather</small>
+                      <span>Quantity: 1</span>
+                  </div>
+                  <span>$65</span>   
+               </li>
+               
+               <li>
+                   <img src="images/bolsa.png" height="57px">
+                  <div class="info">
+                      <h3>The Twill Zip Tote</h3>
+                      <small>Reverse Denim + Black leather</small>
+                      <span>Quantity: 1</span>
+                  </div>
+                  <span>$48</span>   
+               </li>
+                   <li>
+                   <img src="images/cachicol.png" height="57px">
+                  <div class="info">
+                      <h3>The Chunky Wool Scarf</h3>
+                      <small>Black</small>
+                      <span>Quantity: 1</span>
+                  </div>
+                  <span>$235</span>   
+               </li>
+    
+           </ul>
+           
+       <table>
+           
+           <tbody>
+               <tr>
+                   <th scope="row">Subtotal</th>
+                   <td>$398</td>
+               </tr>
+               <tr>
+                   <th scope="row">Shipping</th>
+                   <td>Free</td>
+               </tr>
+               <tr>
+                   <th scope="row">Taxes</th>
+                   <td>12.12</td>
+               </tr>
+           </tbody>
+           <tfoot>
+               <tr>
+                   <th scope="row">Total</th>
+                   <td>$410.12</td>
+               </tr>
+           </tfoot>
+           
+       </table>      
+           
+       </div>
        
    </main>  
                 

@@ -1,0 +1,41 @@
+article {
+    background-color: #ffffff;
+    border-right: 1px solid #e1e1e1;
+}
+
+article .content h3 {
+    color: #d0021b !important;
+    font-size: 1.125em;
+    font-weight: 900;
+    margin-top: 30px;
+    border-bottom: 1px solid #d0021b;
+    padding-bottom: 5px;
+}
+
+article .content h3 #margin {
+    margin-right: 5px;
+}
+
+article .content {
+    font-size: 0.938em;
+    color: #666666;
+    padding: 30px;
+}
+
+article .instituicao h4 {
+    margin-bottom: 5px;
+    font-size: 1.063em;
+    font-weight: 700;
+    
+}
+
+article .instituicao h5 {
+    font-size: 0.938em;
+    margin-bottom: 0px;
+ 
+}
+
+article .instituicao small {
+    font-weight: 300;
+    font-size: 0.938em;
+}
