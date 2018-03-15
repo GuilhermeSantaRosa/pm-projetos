@@ -1,0 +1,104 @@
+* { 
+  margin: 0; 
+  padding: 0;
+}
+
+
+.display {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20vh;
+  
+  background-color: #202020;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.display input {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: right;
+  padding-right: 20px;
+
+  font-size: 60px;
+  color: #FFF;
+  background-color: transparent;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+.display input:focus {
+  outline: 0;
+}
+
+
+.keyboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20vh 20vh 20vh 20vh;
+}
+
+button {
+  font-size: 50px;
+  background-color: #D5D6DA;
+  border: 1px solid #CDCCCC;
+  color: #202020;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+
+button.currency {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+button.currency.usd-brl {
+  background-image: url("images/usd-brl.png");
+}
+
+button.currency.brl-usd {
+  background-image: url("images/brl-usd.png");
+}
+
+button.clear {
+  background-color: #C6C7CB;
+  color: #202020;
+  border: 1px solid #C6C7CB;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+button.currency {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.select {
+  background-color: #4791dc;
+  border: 1px solid #4791dc;
+}
+
+.convert {
+  background-color: #fe8432;
+  border: 1px solid #fe8432;
+}
+
+.displayConverted {
+  color: #7ed321 !important;
+}
+
+.converted {
+  background-color: #00ae69;
+  border: 1px solid #00ae69;
+}
+
+button:focus {
+  outline: 0;
+}

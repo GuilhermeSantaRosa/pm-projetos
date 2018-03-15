@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pm-proj011</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="card">
+        <div class="card height">
+            <label for="height">Altura em Metros</label>
+            <input type="number" id="height" name="height">
+        </div>
+        <div class="card weight">
+            <label for="weight">Peso em quilos</label>
+            <input type="number" id="weight" name="weight">
+        </div>
+        <div class="movement">
+            <button class="btnIMC">Imc</button>
+             <div class="result hidden">
+                 <a href="#" class="back">
+                     <span>Arrow</span>
+                 </a>
+              <div class="text">
+                  <p class="imcValue">47,4</p>
+                  <small class="imcDesc">Magreza</small>
+              </div>     
+             </div>
+        </div>
+    </div>
+      
+   <script src="scripts/behavior.js"></script>
+</body>
+</html>
