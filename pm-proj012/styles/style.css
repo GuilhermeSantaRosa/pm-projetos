@@ -1,4 +1,4 @@
-* { 
+* {         
   margin: 0; 
   padding: 0;
 }
@@ -59,11 +59,11 @@ button.currency {
 }
 
 button.currency.usd-brl {
-  background-image: url("images/usd-brl.png");
+  background-image: url("../img/usd-brl@1.5x.png");
 }
 
 button.currency.brl-usd {
-  background-image: url("images/brl-usd.png");
+  background-image: url("../img/brl-usd.png");
 }
 
 button.clear {

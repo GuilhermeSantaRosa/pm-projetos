@@ -1,0 +1,22 @@
+body {
+    background-color: #ecf0f1;
+    font-family: 'Lato', sans-serif;
+    background-image: url("imgs/small-car.png");
+    background-repeat: no-repeat;
+    background-position: center 300px;
+    
+}
+
+.bar-top button {
+    padding: 43px 50px 32px 33px;
+    background-color: #3498db;
+    border: none;
+    border: 1px solid #3498db;
+    margin-left: -3px
+}
+
+.bar-top input {
+    width: 80%;
+    height: 73px;
+    border: none;
+}
